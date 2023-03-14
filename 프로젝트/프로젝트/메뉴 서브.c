@@ -77,7 +77,7 @@ void read_and_sort_dino_data()
     char arr[NUM_SCORES][MAX_LEN];
 
     for (i = 0; i < NUM_SCORES; i++)
-        fscanf_s(fp_in, "%s %d", arr[i], MAX_LEN, &score[i]);
+        fscanf_s(fp_in, "%s %d", arr[i], MAX_LEN-1, &score[i]);
 
     fclose(fp_in);
 
@@ -99,7 +99,7 @@ void read_and_sort_dino_data()
     }
 
     // 정렬된 데이터 파일에 쓰기
-    FILE* fp_out;
+    FILE* fp_out = NULL;
     if (fopen_s(&fp_out, "sorted_dino.txt", "w") != 0) {
         printf("파일이 열리지 않습니다.");
         return;
