@@ -3,3 +3,4 @@ C:\Users\KB\Desktop\project\프로젝트\프로젝트\x64\Debug\프로젝트.exe
 C:\mygithub\project\프로젝트 찐찐막\프로젝트\x64\Debug\프로젝트.exe
 C:\Users\KB\Desktop\프로젝트 찐찐막2\프로젝트\x64\Debug\프로젝트.exe
 C:\mygithub\project\프로젝트 찐찐막2\프로젝트\x64\Debug\프로젝트.exe
+C:\mygithub\project\진짜최종일까\프로젝트\x64\Debug\프로젝트.exe
